@@ -321,6 +321,9 @@
     right:0px
 
 }
+.phone{
+    display: none;
+}
 .image200{
     height: 200px;
     width: 200px;
@@ -534,6 +537,7 @@ body{
 }
 .phone{
     /* margin-top: -15px; */
+    display: block;
     font-size: 1.4rem;
     border: none;
     background: transparent;
