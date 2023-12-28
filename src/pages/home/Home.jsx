@@ -33,8 +33,8 @@ import { GoLaw } from "react-icons/go";
       </div></div >
       <div className='home-content-below-title' >We Help you Manage your Finances and Taxes in your Business</div>
      <div className="buttons">
-      <button className='btn btn1'>Make an Appointment</button>
-      <button className='btn btn2'>Online Meet</button>
+      <a href='https://calendly.com/varun-jajoo18' style={{textDecoration:"none"}} className='btn btn1'>Make an Appointment</a>
+      <a href="https://www.google.com/maps/dir//Kandivali,+Parekh+Nagar,+Kandivali+West,+Mumbai,+Maharashtra+400067/@19.2532561,72.7393277,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x3be7b6d9ad5ea375:0x1e13b7a8edf22afe!2m2!1d72.8493324!2d19.2066847!3e2?entry=ttu" className='btn btn2' style={{textDecoration:"none"}}>Visit Us</a>
       </div>
       <div className='home-content-below-title2' style={{fontSize:"2vh",color:"#b3b0ca",fontFamily:"poppins"}} >*Request will be Queued</div>
       
@@ -88,7 +88,7 @@ import { GoLaw } from "react-icons/go";
 </div>
 
       
-      <div className="btn3">Join Us Now</div>
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLSfNcTB41jQPWYFckTmcPfo7LNhTWmh7BrNU54vgDaD_BJ3Q4Q/viewform?usp=sf_link' className="btn3 "style={{textDecoration:"none"}}>Join Us Now</a>
       </div>
       <div className="description-container" style={{position:"relative"}}>
       <img id='star' className="image200" src={star1} alt="" style={{position:"absolute",opacity:"20%"}}/>
