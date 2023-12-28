@@ -9,7 +9,7 @@ export default function Navbar() {
          <img src={logo} className="profile" ></img> <span className='logoname' style={{fontFamily:"sunflower",color:"#32315b"}}> S. B. Jajoo & Co.</span>
         </a>
         <button
-          className="navbar-toggler"
+          className="phone"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"

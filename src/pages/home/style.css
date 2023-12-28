@@ -225,6 +225,7 @@
 }
 #s2{
     height: auto;
+    
     padding-bottom: 5vh;
 }
 .caraousel{
@@ -531,10 +532,14 @@ body{
     height: 50px;
     width: 50px;
 }
-.navbar-toggler{
-   border: none;
+.phone{
+    /* margin-top: -15px; */
+    font-size: 1.4rem;
+    border: none;
+    background: transparent;
     color: #6c76f2;
 }
+
 .dots{
     text-align: center;
     width: 85%;
@@ -550,5 +555,6 @@ body{
     margin-left: 0;
     text-align: left;
     margin-top: 2vh;
+    border: none;
 }
 }
